@@ -25,12 +25,12 @@ public class EmailSearcher {
 
     public static void main(String[] args) {
         // https://support.google.com/mail/answer/7126229?hl=en
-        String filePath = "/Desired/Download/Path/Here/";
+        String filePath = "/Desired/Download/Path/Here/"; // Change as needed
         String mailFolder = "labels"; // Change as needed
         String host = "imap.gmail.com";
         String port = "993";
-        String userName = "yourMail@gmail.com";
-        String password = "yourPassword";
+        String userName = "yourMail@gmail.com"; // Change as needed
+        String password = "yourPassword"; // Change as needed
         EmailSearcher searcher = new EmailSearcher();
         String keyword = "Shipping Label and Instructions";
         searcher.searchEmail(filePath, mailFolder, host, port, userName, password, keyword);
